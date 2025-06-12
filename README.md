@@ -1,2 +1,2 @@
 # DevOps Learning Linux Module
-Practical exercises, notes, and challenges from the Linux module of the @CoderCo DevOps course.
+This repository documents my journey into the world of Linux fundamentals — from file systems and permissions to networking and scripting — primarily through hands-on learning with the OverTheWire Bandit wargame.
