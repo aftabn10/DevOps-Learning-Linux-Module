@@ -1,7 +1,7 @@
 # DevOps Learning Linux Module
 This repository documents my journey into the world of Linux fundamentals - from file systems and permissions to networking and scripting - primarily through hands-on learning with the OverTheWire Bandit wargame.
 
-# What I Learned
+# What I learnt...
 - An overview of Linux and its role in modern computing.
 - How to set up Linux with VirtualBox for a safe, isolated environment.
 - Introduction to the terminal — navigating the file system and executing commands.
