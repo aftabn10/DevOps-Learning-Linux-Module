@@ -39,7 +39,8 @@ cat filename.txt | tr "[A-M][N-Z][a-m][n-z]" "[N-Z][A-M][n-z][a-m]"
 ```bash
 cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
 ```
-    or even:
+or even:
+
 ```bash
 tr 'A-Za-z' 'N-ZA-Mn-za-m' < data.txt
 ```
