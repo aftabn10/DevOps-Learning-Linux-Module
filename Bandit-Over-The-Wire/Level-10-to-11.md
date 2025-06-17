@@ -21,6 +21,7 @@ base64 filename.txt
 But this actually encoded the password again instead of decrypting it.
 
 3. Correct way — decrypt instead of encrypt:
+
 To decrypt the password, I used:
 
 ```bash
