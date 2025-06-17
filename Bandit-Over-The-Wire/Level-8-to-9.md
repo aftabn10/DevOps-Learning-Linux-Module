@@ -1,28 +1,34 @@
-# Bandit Level 7 > 8
+# Bandit Level 8 > 9 
+
 
 ## Description:
-The password for the next level is stored in the file data.txt next to the word millionth
-
-    owned by user bandit7
-    owned by group bandit6
-    33 bytes in size
+The password for the next level is stored in the file data.txt and is the only line of text that occurs only once
 
 ## Tips to help to solve this Level:
-man, grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd
+grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd
 
 ## Solution:
-The solution here was to use ```grep``` as this is whats used when looking for patterns. So what I did: 
+1. Identify the task:
+I needed to find the password, which was the unique line of text in the file.
+
+2. Sort the file first:
+I used `sort` to arrange all lines in alphabetical (or numerical) order.
+This groups together duplicated lines.
 
 ```bash
-grep -n millionth data.txt
+sort filename.txt
 ```
 
-was I used `grep` and then combined this to show the line number of where the pattern appeared so ```grep -n "pattern"``` so in this case it was ```grep -n millionth``` and then to end it I add the filename so it becomes ```grep -n "pattern" data.txt```. This then came up with the line no, the patterned word that I searched for `millionth` then the password.
-
-The other option which you can use as well is:
+3. Count duplicates with `uniq -c`:
+After sorting, I used `uniq -c` to count how frequently each line appeared.
+This lets me identify which password occurs just once.
 
 ```bash
-cat data.txt | grep millionth
+sort filename.txt | uniq -c
 ```
 
-![](images/bandit7to8.png)
+4. Analyze output:
+The password is the line that shows up with a count of 1 in the 
+output.
+
+![](images/bandit8to9.png)
