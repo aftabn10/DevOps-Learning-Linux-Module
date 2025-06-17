@@ -8,7 +8,8 @@ grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd
 
 ## Solution:
 
-1.Identify the task:
+1. Identify the task:
+
 I needed to decrypt a password that was base64 encoded in a text file.
 
 2. Initial attempt (incorrect):
