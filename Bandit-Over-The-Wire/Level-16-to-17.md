@@ -76,3 +76,5 @@ ssh -i /tmp/bandit16_key.private bandit17@bandit.labs.overthewire.org -p2220
 ```
 
 This time, it successfully logged me in.
+
+![](images/bandit16to17.png)
