@@ -17,12 +17,12 @@ This repository documents my journey into the world of Linux fundamentals - from
 # OverTheWire Bandit Game - Levels 0 to 20
 This challenge was a major step up from theory — putting my Linux fundamentals into practice. Here’s a snapshot of the key skills I learned along the way:
 
-- File operations and directory structure — navigating, reading, and comparing files.
-- Using ```diff``` to identify differences in files — a crucial tool for configuration and code reviews.
-- Port scanning with ```nmap``` and ```netcat``` (nc) — identifying services and retrieving data over the network.
-- SSL/TLS connections with ```openssl``` and ```ncat``` — understanding encrypted services and retrieving credentials safely.
-- File permissions and ```chmod 0600``` — securing files with proper access controls.
+- File operations and directory structure, navigating, reading, and comparing files.
+- Using ```diff``` to identify differences in files, a crucial tool for configuration and code reviews.
+- Port scanning with ```nmap``` and ```netcat``` (nc) - identifying services and retrieving data over the network.
+- SSL/TLS connections with ```openssl``` and ```ncat``` - understanding encrypted services and retrieving credentials safely.
+- File permissions and ```chmod 0600``` - securing files with proper access controls.
 - SSH fundamentals — accessing remote machines, understanding authentication, and employing custom methods when standard login isn’t available.
-- SetUID programs and privilege escalation — safely navigating and utilizing elevated privilege mechanisms to progress through a challenge.
-- Environment-specific files and configuration — reading files and understanding their role within the Linux ecosystem.
-- General problem-solving and persistence — figuring things out through trial-and-factor, reading man pages, trying different commands, and following hints.
+- SetUID programs and privilege escalation, safely navigating and utilizing elevated privilege mechanisms to progress through a challenge.
+- Environment-specific files and configuration, reading files and understanding their role within the Linux ecosystem.
+- General problem-solving and persistence - figuring things out through trial and error, reading ```man``` pages, trying different commands, and following hints.
